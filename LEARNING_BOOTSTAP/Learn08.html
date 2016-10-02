@@ -7,62 +7,116 @@
 	<link href="Content/bootstrap.min.css" rel="stylesheet" />
 
 	<style>
-		body div[class^="col-"] {
-			padding-top: 10px;
-			padding-bottom: 10px;
-			border: 1px solid rgba(86, 61, 124, 0.2);
-			background-color: rgba(86, 61, 124, 0.15);
+		p {
+			color: red;
 		}
+
+			p.x {
+				color: red;
+			}
+
+		.x {
+			color: red;
+		}
+
+		*.x {
+			color: red;
+		}
+
+		p#x {
+			color: red;
+		}
+
+		#x {
+			color: red;
+		}
+
+		p a {
+			color: red;
+		}
+
+		p > a {
+			color: red;
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			color: red;
+		}
+
+		body div {
+		}
+
+			body div[class] {
+			}
+
+			/*body div.col*/
+			body div[class="col-"] {
+			}
+
+			body div[class^="col-"] {
+				padding-top: 10px;
+				padding-bottom: 10px;
+				border: 1px solid rgba(86, 61, 124, 0.2);
+				background-color: rgba(86, 61, 124, 0.15);
+			}
 	</style>
 </head>
 <body>
 	<div class="container">
 
-		<h1>
-			Nested Rows
-		</h1>
-
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-6 col-sm-4">
 				<p>
-					Asymmetrical YOLO banjo lomo fanny pack, shoreditch flexitarian dreamcatcher ethnic
-					kitsch sriracha nisi sustainable swag. Cliche 90's farm-to-table master cleanse
-					Pinterest jean shorts. Cillum raw denim aesthetic sunt.
+					Godard consequat plaid, deserunt fixie craft beer Cosby sweater Bushwick skateboard
+					single-origin coffee. Brunch forage fixie banh mi adipisicing, freegan mumblecore
+					Shoreditch organic elit swag. Squid exercitation organic fingerstache, roof party
+					art party church-key chia veniam gentrify polaroid Etsy Blue Bottle. Disrupt irure
+					Williamsburg, Thundercats chambray messenger bag mollit kale chips viral art party
+					bespoke small batch street art nihil et. Twee ethnic Austin, chia you probably haven't
+					heard of them bitters leggings brunch hoodie put a bird on it VHS photo booth. Fap
+					photo booth Vice disrupt. Cardigan magna vegan raw denim labore, cornhole Vice mumblecore
+					exercitation iPhone cred actually eiusmod.
 				</p>
 			</div>
 
-			<div class="col-md-9">
-				<div class="row">
-					<div class="col-md-6">
-						<p>
-							Consectetur art party Tonx culpa semiotics. Pinterest assumenda minim organic quis.
-						</p>
-					</div>
+			<div class="col-md-6 col-sm-8">
+				<p>
+					Actually polaroid synth jean shorts Portland, street art nihil fixie bicycle rights
+					ugh cornhole organic selvage. Wayfarers Shoreditch nesciunt fap Vice. Tumblr master
+					cleanse reprehenderit, cupidatat odio dolor selvage ennui assumenda pop-up. Tofu
+					Wes Anderson gluten-free actually Pinterest, elit aute Brooklyn flannel. Vice Carles
+					blog authentic. Hella nihil ugh Cosby sweater, YOLO pour-over cupidatat aliqua Shoreditch
+					flexitarian Terry Richardson freegan umami elit Vice. Tumblr voluptate narwhal eu,
+					organic viral bespoke commodo ex keytar hella chillwave.
+				</p>
+			</div>
+		</div>
 
-					<div class="col-md-6">
-						<p>
-							Consectetur art party Tonx culpa semiotics. Pinterest assumenda minim organic quis.
-						</p>
-					</div>
-				</div>
+		<div class="row">
+			<div class="col-md-6 col-sm-4">
+				<p>
+					Godard consequat plaid, deserunt fixie craft beer Cosby sweater Bushwick skateboard
+					single-origin coffee. Brunch forage fixie banh mi adipisicing, freegan mumblecore
+					Shoreditch organic elit swag. Squid exercitation organic fingerstache, roof party
+					art party church-key chia veniam gentrify polaroid Etsy Blue Bottle. Disrupt irure
+					Williamsburg, Thundercats chambray messenger bag mollit kale chips viral art party
+					bespoke small batch street art nihil et. Twee ethnic Austin, chia you probably haven't
+					heard of them bitters leggings brunch hoodie put a bird on it VHS photo booth. Fap
+					photo booth Vice disrupt. Cardigan magna vegan raw denim labore, cornhole Vice mumblecore
+					exercitation iPhone cred actually eiusmod.
+				</p>
+			</div>
 
-				<div class="row">
-					<div class="col-md-6">
-						<p>
-							Wayfarers selvage YOLO, commodo assumenda eu est bespoke mlkshk. Helvetica reprehenderit
-							iPhone, aesthetic 90's literally chambray bicycle rights viral blog voluptate. Occupy
-							bespoke stumptown duis keytar vero.
-						</p>
-					</div>
-
-					<div class="col-md-6">
-						<p>
-							Wayfarers selvage YOLO, commodo assumenda eu est bespoke mlkshk. Helvetica reprehenderit
-							iPhone, aesthetic 90's literally chambray bicycle rights viral blog voluptate. Occupy
-							bespoke stumptown duis keytar vero.
-						</p>
-					</div>
-				</div>
+			<div class="col-md-6 col-sm-8">
+				<p>
+					Actually polaroid synth jean shorts Portland, street art nihil fixie bicycle rights
+					ugh cornhole organic selvage. Wayfarers Shoreditch nesciunt fap Vice. Tumblr master
+					cleanse reprehenderit, cupidatat odio dolor selvage ennui assumenda pop-up. Tofu
+					Wes Anderson gluten-free actually Pinterest, elit aute Brooklyn flannel. Vice Carles
+					blog authentic. Hella nihil ugh Cosby sweater, YOLO pour-over cupidatat aliqua Shoreditch
+					flexitarian Terry Richardson freegan umami elit Vice. Tumblr voluptate narwhal eu,
+					organic viral bespoke commodo ex keytar hella chillwave.
+				</p>
 			</div>
 		</div>
 

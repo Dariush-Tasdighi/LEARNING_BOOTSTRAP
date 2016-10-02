@@ -13,57 +13,57 @@
 			margin-bottom: 20px;
 		}
 	</style>
-
-	<script src="Scripts/jquery-3.1.0.min.js"></script>
-	<script src="Scripts/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container">
-		<div id="carousel-1" class="carousel slide" data-ride="carousel">
 
-			<ol class="carousel-indicators">
-				<li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-				<li data-target="#carousel-1" data-slide-to="1"></li>
-				<li data-target="#carousel-1" data-slide-to="2"></li>
-			</ol>
+		<div class="panel panel-primary">
 
-			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<img src="Content/Images/Banners/Banner01.jpg" alt="" />
+			<div class="panel-heading">
 
-					<!--<div class="carousel-caption">
-					</div>-->
-				</div>
+				<h3 class="panel-title">
+					Login
+				</h3>
 
-				<div class="item">
-					<img src="Content/Images/Banners/Banner02.jpg" alt="" />
-
-					<!--<div class="carousel-caption">
-					</div>-->
-				</div>
-
-				<div class="item">
-					<img src="Content/Images/Banners/Banner03.jpg" alt="" />
-
-					<!--<div class="carousel-caption">
-					</div>-->
-				</div>
 			</div>
 
-			<a class="left carousel-control" href="#carousel-1" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="right carousel-control" href="#carousel-1" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
+			<div class="panel-body form-horizontal">
+
+				<form id="frmMain" name="frmMain" action="نشانی جايی که می خواهيم اطلاعات به آنجا ارسال شود" method="post" autocomplete="off" spellcheck="false" translate="no" role="form">
+
+					<div class="row form-group">
+						<label for="emailAddress" class="col-sm-3 control-label">Email Address</label>
+						<div class="col-sm-9">
+							<input type="search" id="emailAddress" name="emailAddress" class="form-control" placeholder="Sample: DariushT@GMail.com" />
+						</div>
+					</div>
+
+					<div class="row form-group">
+						<label for="password" class="col-sm-3 control-label">Password</label>
+						<div class="col-sm-9">
+							<input type="password" id="password" name="password" class="form-control" placeholder="Sample: Hello12345" />
+						</div>
+					</div>
+
+					<div class="row form-group">
+						<div class="col-sm-9 col-sm-offset-3">
+							<button type="submit" class="btn btn-primary" accesskey="L">(L)ogin</button>
+							<button type="reset" class="btn btn-default" accesskey="R">(R)eset</button>
+						</div>
+					</div>
+
+				</form>
+
+			</div>
+
+			<div class="panel-footer">
+				<a href="#">Forgot Password</a>
+				|
+				<a href="#">Send Again Verification Key</a>
+			</div>
 
 		</div>
-	</div>
 
-	<div class="container">
-		Note: carousel-1
 	</div>
 </body>
 </html>

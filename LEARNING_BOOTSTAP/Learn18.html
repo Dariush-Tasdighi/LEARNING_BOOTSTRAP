@@ -6,82 +6,137 @@
 
 	<link href="Content/bootstrap.min.css" rel="stylesheet" />
 	<link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
-	<link href="Content/bootstrap-rtl.min.css" rel="stylesheet" />
-
-	<link href="Content/Site.css" rel="stylesheet" />
 
 	<style>
 		body {
 			margin-top: 20px;
 			margin-bottom: 20px;
-			text-align: justify;
-			font-family: webYekan, Tahoma, Arial;
 		}
 
-		.ltr {
-			direction: ltr;
-			text-align: left;
-			font-family: Verdana;
-		}
+		/*.table-striped > tbody > tr {
+			background-color: khaki;
+		}*/
 
-		.rtl {
-			direction: rtl;
-			text-align: justify;
-			font-family: webYekan, Tahoma, Arial;
-		}
+		/*.table-striped > tbody > tr:nth-of-type(odd) {
+			background-color: khaki;
+		}*/
 	</style>
 </head>
 <body>
 	<div class="container">
 
-		<div class="panel panel-primary">
+		<div class="row">
+			<div class="col-sm-12 table-responsive">
+				<table class="table table-bordered table-condensed table-striped table-hover">
+					<tr>
+						<th>
+							#
+						</th>
+						<th>
+							First Name
+						</th>
+						<th>
+							Last Name
+						</th>
+						<th>
+							Phone Number
+						</th>
+						<th>
+							Address
+						</th>
+					</tr>
 
-			<div class="panel-heading">
+					<tr>
+						<td>
+							1
+						</td>
+						<td>
+							Ali Reza
+						</td>
+						<td>
+							Alavi
+						</td>
+						<td>
+							09123456789
+						</td>
+						<td>
+							4th Floor, #13, Some Ave., Some Street, Tehran, Tehran, Iran
+						</td>
+					</tr>
 
-				<h3 class="panel-title">
-					ورود به پايگاه
-				</h3>
+					<tr>
+						<td>
+							2
+						</td>
+						<td>
+							Sara
+						</td>
+						<td>
+							Ahmadi
+						</td>
+						<td>
+							09123456789
+						</td>
+						<td>
+							4th Floor, #13, Some Ave., Some Street, Tehran, Tehran, Iran
+						</td>
+					</tr>
 
+					<tr>
+						<td>
+							3
+						</td>
+						<td>
+							Dariush
+						</td>
+						<td>
+							Tasdighi
+						</td>
+						<td>
+							09123456789
+						</td>
+						<td>
+							4th Floor, #13, Some Ave., Some Street, Tehran, Tehran, Iran
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							4
+						</td>
+						<td>
+							Sanaz
+						</td>
+						<td>
+							Ghaderi
+						</td>
+						<td>
+							09123456789
+						</td>
+						<td>
+							4th Floor, #13, Some Ave., Some Street, Tehran, Tehran, Iran
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							5
+						</td>
+						<td>
+							Mohammad
+						</td>
+						<td>
+							Abdi
+						</td>
+						<td>
+							09123456789
+						</td>
+						<td>
+							4th Floor, #13, Some Ave., Some Street, Tehran, Tehran, Iran
+						</td>
+					</tr>
+				</table>
 			</div>
-
-			<div class="panel-body form-horizontal">
-
-				<form id="frmMain" name="frmMain" action="نشانی جايی که می خواهيم اطلاعات به آنجا ارسال شود" method="post" autocomplete="off" spellcheck="false" translate="no" role="form">
-
-					<div class="row form-group">
-						<label for="emailAddress" class="col-sm-3 control-label">
-							نشانی پست الکترونيکی
-							<span class="glyphicon glyphicon-envelope" aria-hidden="true" style="color: red; font-size: 16pt;"></span>
-						</label>
-						<div class="col-sm-9">
-							<input type="search" id="emailAddress" name="emailAddress" class="form-control ltr" placeholder="نمونه: DariushT@GMail.com" />
-						</div>
-					</div>
-
-					<div class="row form-group">
-						<label for="password" class="col-sm-3 control-label">گذرواژه</label>
-						<div class="col-sm-9">
-							<input type="password" id="password" name="password" class="form-control ltr" placeholder="نمونه: Hello12345" />
-						</div>
-					</div>
-
-					<div class="row form-group">
-						<div class="col-sm-9 col-sm-offset-3">
-							<button type="submit" class="btn btn-primary" accesskey="S">ورود</button>
-							<button type="reset" class="btn btn-default" accesskey="R">حالت اوليه</button>
-						</div>
-					</div>
-
-				</form>
-
-			</div>
-
-			<div class="panel-footer">
-				<a href="#">کلمه عبور را فراموش کرده‌ام</a>
-				|
-				<a href="#">ايميل مربوط به تاييد نشانی پست الکترونيکی مرا مجددا ارسال نماييد</a>
-			</div>
-
 		</div>
 
 	</div>

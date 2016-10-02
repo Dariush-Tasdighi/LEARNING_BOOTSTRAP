@@ -8,50 +8,64 @@
 	<link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
 
 	<style>
+		body {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
 	</style>
-
-	<script src="Scripts/jquery-3.1.0.min.js"></script>
-	<script src="Scripts/bootstrap.min.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">Brand</a>
-			</div>
-
-			<div class="collapse navbar-collapse" id="navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-							<li role="separator" class="divider"></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
 	<div class="container">
-		Note: navbar-collapse-1
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+
+				<h3 class="panel-title">
+					Login
+				</h3>
+
+			</div>
+
+			<div class="panel-body">
+
+				<form id="frmMain" name="frmMain" action="نشانی جايی که می خواهيم اطلاعات به آنجا ارسال شود" method="post" autocomplete="off" spellcheck="false" translate="no" role="form">
+
+					<div class="form-horizontal">
+						<div class="row form-group">
+							<label for="emailAddress" class="col-sm-3 control-label">Email Address</label>
+							<div class="col-sm-9">
+								<input type="Search" id="emailAddress" name="emailAddress" class="form-control" placeholder="Sample: DariushT@GMail.com" />
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<label for="password" class="col-sm-3 control-label">Password</label>
+							<div class="col-sm-9">
+								<input type="password" id="password" name="password" class="form-control" placeholder="Sample: Hello12345" />
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<div class="col-sm-9 col-sm-offset-3">
+								<button type="submit" class="btn btn-primary" accesskey="L">(L)ogin</button>
+								<button type="reset" class="btn btn-default" accesskey="R">(R)eset</button>
+							</div>
+						</div>
+					</div>
+
+				</form>
+
+			</div>
+
+			<div class="panel-footer">
+				<a href="#">Forgot Password</a>
+				|
+				<a href="#">Send Again Verification Key</a>
+			</div>
+
+		</div>
+
 	</div>
 </body>
 </html>

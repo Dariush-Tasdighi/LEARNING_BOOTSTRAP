@@ -1,0 +1,33 @@
+﻿/*.panel-footer {
+	background-color: white;
+}
+
+div.panel-footer {
+	background-color: white;
+}
+
+div.panel div.panel-footer {
+	background-color: white;
+}*/
+
+div.panel > div.panel-footer {
+	background-color: white;
+}
+
+/*div.panel-danger div.panel-heading {
+	color: white;
+	font-weight: bold;
+	background-color: red;
+}
+
+div.panel.panel-danger div.panel-heading {
+	color: white;
+	font-weight: bold;
+	background-color: red;
+}*/
+
+div.panel.panel-danger > div.panel-heading {
+	color: white;
+	font-weight: bold;
+	background-color: red;
+}

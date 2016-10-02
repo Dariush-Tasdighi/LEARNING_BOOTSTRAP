@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -58,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Readme.txt" />
+    <Content Include="Content\bootstrap-exceptions.css" />
     <Content Include="Content\bootstrap-rtl.css" />
     <Content Include="Content\bootstrap-rtl.min.css" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -71,12 +73,15 @@
     <Content Include="Content\bootstrap-rtl.css.map" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\YekanWeb-Regular.woff" />
-    <Content Include="Learn00.html" />
-    <Content Include="Learn09.html" />
+    <Content Include="Learn01.html" />
     <Content Include="Learn13.html" />
-    <Content Include="Learn21.html" />
-    <Content Include="Learn20.html" />
-    <Content Include="Learn19.html" />
+    <Content Include="Learn10.html" />
+    <Content Include="Learn12.html" />
+    <Content Include="Learn15.html" />
+    <Content Include="Learn17.html" />
+    <Content Include="Learn25.html" />
+    <Content Include="Learn24.html" />
+    <Content Include="Learn23.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -87,13 +92,13 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
-    <None Include="Scripts\jquery-3.1.0.intellisense.js" />
-    <Content Include="Scripts\jquery-3.1.0.js" />
-    <Content Include="Scripts\jquery-3.1.0.min.js" />
-    <Content Include="Scripts\jquery-3.1.0.slim.js" />
-    <Content Include="Scripts\jquery-3.1.0.slim.min.js" />
-    <Content Include="Scripts\jquery-3.1.0.slim.min.map" />
-    <Content Include="Scripts\jquery-3.1.0.min.map" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -102,14 +107,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Learn14.html" />
-    <Content Include="Learn16.html" />
     <Content Include="Learn18.html" />
-    <Content Include="Learn17.html" />
-    <Content Include="Learn15.html" />
-    <Content Include="Learn12.html" />
+    <Content Include="Learn20.html" />
+    <Content Include="Learn22.html" />
+    <Content Include="Learn21.html" />
+    <Content Include="Learn19.html" />
+    <Content Include="Learn16.html" />
+    <Content Include="Learn14.html" />
     <Content Include="Learn11.html" />
-    <Content Include="Learn10.html" />
+    <Content Include="Learn09.html" />
     <Content Include="Learn08.html" />
     <Content Include="Learn07.html" />
     <Content Include="Learn06.html" />
@@ -117,7 +123,6 @@
     <Content Include="Learn04.html" />
     <Content Include="Learn03.html" />
     <Content Include="Learn02.html" />
-    <Content Include="Learn01.html" />
     <Content Include="packages.config" />
     <Content Include="Web.config" />
   </ItemGroup>
