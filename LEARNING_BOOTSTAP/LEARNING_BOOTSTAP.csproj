@@ -74,14 +74,32 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\YekanWeb-Regular.woff" />
     <Content Include="Learn01.html" />
-    <Content Include="Learn13.html" />
+    <Content Include="Learn02.html" />
+    <Content Include="Learn03.html" />
+    <Content Include="Learn04.html" />
+    <Content Include="Learn05.html" />
+    <Content Include="Learn06.html" />
+    <Content Include="Learn07.html" />
+    <Content Include="Learn08.html" />
+    <Content Include="Learn09.html" />
     <Content Include="Learn10.html" />
+    <Content Include="Learn11.html" />
     <Content Include="Learn12.html" />
+    <Content Include="Learn13.html" />
+    <Content Include="Learn14.html" />
     <Content Include="Learn15.html" />
+    <Content Include="Learn16.html" />
     <Content Include="Learn17.html" />
-    <Content Include="Learn25.html" />
-    <Content Include="Learn24.html" />
+    <Content Include="Learn18.html" />
+    <Content Include="Learn19.html" />
+    <Content Include="Learn20.html" />
+    <Content Include="Learn21.html" />
+    <Content Include="Learn22.html" />
     <Content Include="Learn23.html" />
+    <Content Include="Learn24.html" />
+    <Content Include="Learn25.html" />
+    <Content Include="Learn26.html" />
+    <Content Include="Learn27.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -107,22 +125,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Learn18.html" />
-    <Content Include="Learn20.html" />
-    <Content Include="Learn22.html" />
-    <Content Include="Learn21.html" />
-    <Content Include="Learn19.html" />
-    <Content Include="Learn16.html" />
-    <Content Include="Learn14.html" />
-    <Content Include="Learn11.html" />
-    <Content Include="Learn09.html" />
-    <Content Include="Learn08.html" />
-    <Content Include="Learn07.html" />
-    <Content Include="Learn06.html" />
-    <Content Include="Learn05.html" />
-    <Content Include="Learn04.html" />
-    <Content Include="Learn03.html" />
-    <Content Include="Learn02.html" />
     <Content Include="packages.config" />
     <Content Include="Web.config" />
   </ItemGroup>
